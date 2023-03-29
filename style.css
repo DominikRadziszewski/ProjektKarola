@@ -1,0 +1,88 @@
+#tytul
+{
+	font-family:Shadows Into Light;
+	padding:15px;
+	text-align:center;
+	background: white;
+	width:100%;
+	height:100px;
+}
+ul li{
+  display: inline;
+}
+#div1
+{
+	display: flex;
+	justify-content: center;
+	font-family:Shadows Into Light;
+	width:100%;
+	height:20px;
+
+}
+#wybor
+{
+
+text-align:center;
+	
+}
+
+ul {
+	background: white;
+	color: black;
+	text-align: center;
+	font-family:Shadows Into Light;
+	font-size: 30px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+li {
+
+float: left;
+text-decoration: none;
+
+}
+
+.onas{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.onas:hover{
+	text-decoration:underline;
+}
+.kreator{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.kreator:hover{
+	text-decoration:underline;
+}
+
+.oferta{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.oferta:hover{
+	text-decoration:underline;
+}
+.opinie{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.opinie:hover{
+	text-decoration:underline;
+}
+
+.kontakt{
+padding:0px 50px;
+}
+.kontakt:hover{
+	text-decoration:underline;
+}
+a{
+text-decoration: none;
+color: black;
+
+}

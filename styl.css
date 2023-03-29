@@ -1,0 +1,116 @@
+body{
+	font-family:Shadows Into Light;
+}
+#tytul
+{
+	padding:15px;
+	text-align:center;
+	background: white;
+	width:100%;
+	height:100px;
+}
+ul li{
+  display: inline;
+}
+#div1
+{
+	justify-content: center;
+	width:100%;
+
+}
+#wybor
+{
+	font-size:200%;
+	padding-top:50px;
+text-align:center;
+}
+.wybor
+{
+	font-size:60%;
+	font-family:Arial;
+}
+.bohater{
+	font-size:60%;
+	font-family:Arial;
+}
+.char{
+text-align:top;
+	font-family:Arial;
+	width:350px;
+	height:90px;
+}
+.cel
+{
+	font-size:60%;
+	font-family:Arial;
+}
+ul {
+	background: white;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+li {
+
+float: left;
+text-decoration: none;
+
+}
+h1{
+	font-size:40px;
+}
+input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.onas{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.onas:hover{
+	text-decoration:underline;
+}
+.kreator{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.kreator:hover{
+	text-decoration:underline;
+}
+
+.oferta{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.oferta:hover{
+	text-decoration:underline;
+}
+.opinie{
+border-right: 3px solid black;
+padding:0px 50px;
+}
+.opinie:hover{
+	text-decoration:underline;
+}
+
+.kontakt{
+padding:0px 50px;
+}
+.kontakt:hover{
+	text-decoration:underline;
+}
+a{
+text-decoration: none;
+color: black;
+
+}
