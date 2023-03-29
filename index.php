@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>TWOJA HISTORIA</title>
 <link rel="stylesheet" type="text/css" href="styl.css">
+<?php include "lacznik.php";?>
 </head>
 <body id="prosze">
 <?php include_once "head.php"; ?>
