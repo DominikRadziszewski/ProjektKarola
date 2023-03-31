@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <title>TWOJA HISTORIA</title>
 <link rel="stylesheet" type="text/css" href="styl.css">
-<?php include "lacznik.php";?>
+<?php require "lacznik.php";?>
 </head>
 <body id="prosze">
 <?php include_once "head.php"; ?>
 <div id="wybor">
-<form action="" method="$_POST">
+<form method="POST" action="formularz.php">
 <br>
 <h1>WYGLĄD</h1>
-<label name="zdj">ZDJĘCIE GŁÓWNEGO BOHATERA(NIE WYMAGANE) </label><input type="file" name="bohaterek"
+<label for="zdj">ZDJĘCIE GŁÓWNEGO BOHATERA(NIE WYMAGANE) </label><input type="file" name="bohaterek"
        accept="image/png, image/jpeg">
 <br>
-<label name="chara">CHARAKTERYSTYCZNE ELEMNTY UBIORU(NIE WYMAGANE)</label>
+<label for="chara">CHARAKTERYSTYCZNE ELEMNTY UBIORU(NIE WYMAGANE)</label>
 <input type="file" name="ubiór"
        accept="image/png, image/jpeg">
 <br>
@@ -30,7 +30,7 @@ KRÓTKA OPINIA<br><textarea name="opinia" class="char"></textarea><br>
 <br>
 
 <h1>ELEMENTY FABUŁY</h1>
-CEL<br><input type="text" name="cel" value="" class="cel"/><br>
+CEL<br><input type="text" id = "cel" name="cel" value="" class="cel"/><br>
 MOTYWACJE<br><input type="text" name="motywacje" value="" class="cel"/><br>
 WĄTKI DO PORUSZENIA<br><textarea name="watki" class="char"></textarea><br>
 WĄTKI KTÓRYCH NIE PORUSZAĆ<br><textarea name="zakaz" class="char"></textarea><br>
@@ -54,10 +54,10 @@ RODZAJ NARRACJI<br>
 	<option value="Kryminalna" id="gatunek">Kryminalna</option>
   </datalist><br>
  <label name="bohater">WULGARYZMY</label><br>
-<label><input type="radio" name="wulgaryzmy" > Tak</label>
-<label><input type="radio" name="wulgaryzmy"> Nie</label>
+<label><input type="radio" name="wulgaryzmy" value="1" > Tak</label>
+<label><input type="radio" name="wulgaryzmy" value="0"> Nie</label>
 <br>
-<input type="submit" value="Wyślij">
+<input type="submit" name="wyslij" value="wyslij">
 </form>
 </div>
 </body>

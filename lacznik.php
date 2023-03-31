@@ -3,14 +3,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
+$db="karol";
 
 //Laczenie
-$conn= new mysqli($servername,$username,$password);
+$conn=new mysqli($servername,$username,$password,$db);
+      if($conn->connect_error){
+        die("Nieudane połączenie z baza dancyh: " . $conn->connect_error);
+      }
 
-//sprawdzanie połączenia
-if($conn->connect_error){
-    die("Połączenie przerwane ". $conn->connect_error);
-}
-
-echo "Połączenie udane";
 ?>
